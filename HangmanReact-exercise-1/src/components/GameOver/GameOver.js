@@ -2,7 +2,8 @@ import React from "react";
 import win from "../../assets/win.gif";
 import lose from "../../assets/lose.gif";
 
-const GameOver = props => {
+const GameOver = (props) => {
+  console.log(props);
   const winResult = (
     <div className="win">
       <h2>You won!</h2>
