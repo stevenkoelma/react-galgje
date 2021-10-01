@@ -1,6 +1,6 @@
 import React from "react";
 
-const TextInput = props => (
+const TextInput = (props) => (
   <form onSubmit={props.submit}>
     <input
       type="text"
@@ -9,6 +9,7 @@ const TextInput = props => (
       disabled={props.gameIsOver ? "disabled" : ""}
       onChange={props.change}
     />
+
     <input
       type="submit"
       value="guess"
