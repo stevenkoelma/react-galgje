@@ -1,6 +1,6 @@
 import React from "react";
 
-const GuessesLeft = props => (
+const GuessesLeft = (props) => (
   <p className="lives">
     You have {props.maxGuesses - props.wrongLetters.length} guesses remaining
   </p>
