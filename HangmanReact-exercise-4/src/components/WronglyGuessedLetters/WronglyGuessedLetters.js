@@ -1,6 +1,6 @@
 import React from "react";
 
-const WronglyGuessedLetters = props => (
+const WronglyGuessedLetters = (props) => (
   <div>{props.wrongLetters.join(" ")}</div>
 );
 
